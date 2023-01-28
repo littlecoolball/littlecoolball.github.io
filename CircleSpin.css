@@ -1,0 +1,17 @@
+/* Create the semi-circle shape */
+.semi-circle {
+    width: 100px;
+    height: 50px;
+    border-radius: 50% 50% 0 50%;
+    background-color: #333;
+  }
+  
+  /* Add the animation to spin the semi-circle */
+  .semi-circle:hover {
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
