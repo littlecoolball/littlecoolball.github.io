@@ -41,3 +41,6 @@
     background-color: #ff00ff;
     transition: all 1s ease;
   }
+  .dot:hover {
+    transform: scale(2);
+  }
