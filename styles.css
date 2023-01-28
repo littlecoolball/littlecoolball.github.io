@@ -3,7 +3,7 @@
     width: 100px;
     height: 50px;
     border-radius: 50% 50% 0 50%;
-    background-color: #333;
+    background-color: rgb(77, 42, 42);
   }
   
   /* Add the animation to spin the semi-circle */
@@ -20,7 +20,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: azure;
+    background-color: rgb(24, 168, 168);
   }
   
   .circle {
