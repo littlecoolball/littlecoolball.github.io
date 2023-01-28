@@ -1,0 +1,17 @@
+body {
+    background: #F5F5DC url('path/to/image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    animation: backgroundAnimation 30s linear infinite;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
