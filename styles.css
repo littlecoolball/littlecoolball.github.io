@@ -39,7 +39,18 @@
     height: 20px;
     border-radius: 50%;
     background-color: #ff00ff;
-    transition: all 1s ease;
+    animation: dot-animation 1s ease-in-out infinite;
+  }
+  @keyframes dot-animation{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
   }
   .dot:hover {
     transform: scale(2);
