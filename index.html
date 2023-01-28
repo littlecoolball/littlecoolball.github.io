@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html>
+    
 <head>
     <link rel="stylesheet" type="text/css" href="background.css">
     <title>This is a testing website</title>
 </head>
-<body>
 
-<h1>This is a testing website</h1>
-<link rel="stylesheet" href="styles.css">
-<div class="semi-circle"></div>
-<div class="container">
-    <div class="circle"></div>
-    <div class="circle"></div>
-    <div class="circle"></div>
-</div>
-<div class="container">
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <!-- Add as many dots as you want -->
-</div>
-<script src="followingmouse.js"></script>
+<body>
+    <button id="goToPageTwo">Go to Page Two</button>
+
+    <script>
+      document.getElementById("goToPageTwo").addEventListener("click", function() {
+        window.location.href = "pageTwo.html";
+      });
+    </script>
+    <h1>This is a testing website</h1>
+    <link rel="stylesheet" href="styles.css">
+    <div class="semi-circle"></div>
+    <div class="container">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    <div class="container">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <!-- Add as many dots as you want -->
+    </div>
+    <script src="followingmouse.js"></script>
 </body>
 </html>
