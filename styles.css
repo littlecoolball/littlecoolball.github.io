@@ -29,3 +29,6 @@
     border-radius: 50%;
     background-color: #ff00ff;
   }
+  .circle:hover {
+    transform: scale(2);
+  }
