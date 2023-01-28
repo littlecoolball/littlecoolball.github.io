@@ -52,6 +52,22 @@
         opacity: 0;
     }
   }
-  .dot:hover {
+  @keyframes dot-animation {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: calc(100vh - 20px);
+        left: calc(100vw - 20px);
+    }
+  }
+
+.dot {
+    animation-name: dot-animation;
+    animation-direction: normal;
+    animation-timing-function: steps(30);
+}
+.dot:hover {
     transform: scale(2);
   }
